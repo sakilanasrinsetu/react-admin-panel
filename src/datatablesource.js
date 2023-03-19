@@ -11,9 +11,21 @@ export const userColumns = [
         }
     },
 
-    { field:"email", headerName:"Email", width:230},
-    { field:"age", headerName:"Age", width:100},
-    { field:"status", headerName:"Status", width:160, 
+    { 
+      field:"email",
+      headerName:"Email",
+      width:230
+    },
+    { 
+      field:"age", 
+      headerName:"Age", 
+      width:100
+    },
+    { 
+      field:"status", 
+      headerName:"Status", 
+      width:160, 
+      
     renderCell: (params) => {
         return (
           <div className={`cellWithStatus ${params.row.status}`}>
@@ -22,7 +34,7 @@ export const userColumns = [
         )
     } 
  },
-]
+];
 
 export const userRows = [
     {
