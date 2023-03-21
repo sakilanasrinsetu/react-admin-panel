@@ -5,10 +5,12 @@ import Login from "./pages/login/login";
 import List from "./pages/list/list";
 import New from "./pages/new/new";
 import { productInputs, userInputs } from "./formSource";
+import "./style/dark.scss";
+
 
 function App() {
   return (
-    <div className="App">
+    <div className={ "app"}>
         <BrowserRouter>
         <Routes>
             <Route index element={<Home/>}/>
