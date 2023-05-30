@@ -68,7 +68,9 @@ const Widgets = ( {type} ) => {
 
 
   return (
-    <div className="widget">
+    <div className="widget" style={{
+        backgroundImage: 'linear-gradient(to bottom, #0C0F14, #000000cf), url(/asset/images/wood.jpg)'
+      }}>
         <div className="left"> 
         <span className="title">{data.title}</span>
         <span className="counter">{data.isMoney && '$'} {amount}</span>

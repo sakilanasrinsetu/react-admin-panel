@@ -1,9 +1,12 @@
+
 .sidebar {
-    
     flex: 1;
     border-right: 0.5px solid rgba(230, 227, 227);
     min-height: 100vh;
-    background-color: white;
+    // background-color: white;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
 
     .top{
         height: 50px;
@@ -14,7 +17,10 @@
         .logo{
             font-size: 20px;
             font-weight: bold;
-            color: #6439ff;
+            color: #e1dfee;
+            font-family: 'Cherry Bomb One', cursive;
+            letter-spacing :2px;
+
         }
     }
     hr{
@@ -28,7 +34,7 @@
             list-style: none;
             .title{
                 font-size: 10px;
-                font-weight: bold;
+                font-weight: 400;
                 color: #999;
                 margin-top: 15px;
                 margin-bottom: 5px;
@@ -41,19 +47,20 @@
                 cursor: pointer;
 
                 &:hover{
-                    background-color: #ece8ff;
+                    background-color: #0596a0;
                 }
 
                 .icon{
                     font-size: 18px;
-                    color: #7451f8;
+                    color: #f8f8f8;
                 }
 
                 span{
-                    font-size: 13px;
-                    font-weight: 600;
-                    color: #888;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: rgb(236, 236, 236);
                     margin-left: 10px;
+                    line-height: 1%;
                 }
             }
         }
