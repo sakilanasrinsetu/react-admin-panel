@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    padding: 10px;
+    padding: 3%;
     -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
     box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
     border-radius: 10px;
@@ -16,18 +16,20 @@
         .title {
             font-weight: bold;
             font-size: 14px;
-            color: gray;
+            color: rgb(224, 224, 224);
         }
 
         .counter{
             font-size: 28px;
             font-weight: 300;
+            color: rgb(209, 205, 200);
         }
 
         .link{
             width: max-content;
             font-size: 12px;
             border-bottom: 1px solid gray;
+            color: gainsboro;
         }
 
         .percentage{
